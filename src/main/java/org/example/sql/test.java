@@ -29,7 +29,6 @@ public class test {
                 String email = resultSet.getString("email");
                 System.out.println("ID: " + id + " | ឈ្មោះ: " + name + " | អ៊ីមែល: " + email);
             }
-
             // បិទការភ្ជាប់ក្រោយប្រើរួច
             connection.close();
 
