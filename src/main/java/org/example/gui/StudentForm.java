@@ -17,6 +17,7 @@ public class StudentForm extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+
         // 1. បង្កើត Title និង Labels
         lblTitle = new JLabel("Input Information of Student(Id, Midterm and Final)");
         lblTitle.setBounds(50, 20, 450, 25);
@@ -124,7 +125,6 @@ public class StudentForm extends JFrame {
                 txtResult.setText("");
             }
         });
-
         // ប៊ូតុង Exit
         btnExit.addActionListener(new ActionListener() {
             @Override
