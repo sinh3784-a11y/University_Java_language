@@ -1,10 +1,7 @@
 package org.example.gui;
 import java.util.Scanner;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import org.example.gui.*;
-public class Form {
+
+public class Runhomework {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
         for (int i=0 ; i<=3 ;i++) {

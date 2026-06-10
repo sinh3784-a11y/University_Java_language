@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class EmployeeForm extends JFrame {
+class EmployeeForm extends JFrame {
     JLabel lblTitle, lblId, lblName, lblSex, lblPosition, lblSalary, lblTax, lblIncome;
     JTextField txtId, txtName, txtSex, txtPosition, txtSalary, txtTax, txtIncome;
     JButton btnFind, btnSave, btnClear, btnExit;
